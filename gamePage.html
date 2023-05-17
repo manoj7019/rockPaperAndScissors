@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="gamePage.css">
         <title>Rock, Paper and Scissors</title>
     </head>
     <body>
@@ -13,10 +13,19 @@
     <br>
         <h2>Choose your weapon</h2>
         <div class="container">
-            <img src="./images/rock.png" alt="rock image" width="50px" height="auto">
-            <img src="./images/paper.png" alt="paper-image" width="50px" height="auto">
-            <img src="./images/scissors.png" alt="scissors-image" width="50px" height="auto">
+            <img class="rock-image" src="./images/rock.png" alt="rock image" width="50px" height="auto">
+            <img class="paper-image"src="./images/paper.png" alt="paper-image" width="50px" height="auto">
+            <img class="scissors-image"src="./images/scissors.png" alt="scissors-image" width="50px" height="auto">
         </div>
     </br>
+
+    <script>
+        const choice = ['Rock', 'Paper', 'Scissors'];
+
+        let manojSelection = choice[Math.floor(Math.random() * choice.length)];
+        console.log(`Manoj's weapon is ${manojSelection}`);
+
+    </script>
+
     </body>
 </html>

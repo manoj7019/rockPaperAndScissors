@@ -1,7 +1,4 @@
-title {
-    display: none;
-}
-
+title,
 script {
     display: none;
 }
@@ -16,15 +13,14 @@ script {
     align-items: center;
 }
 
-
-img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 20px;
+.container {
+    display: flex;
+    flex-direction: row;
 }
 
-#lets-play-button {
-    background-color: lightgray;
-    font-weight: bold;
-    color: black;
+.rock-image,
+.paper-image,
+.scissors-image {
+    width: 100px;
+    height: auto;
 }
