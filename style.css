@@ -1,0 +1,39 @@
+title {
+    display: none;
+}
+
+script {
+    display: none;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+#lets-play-button {
+    background-color: lightgray;
+    font-weight: bold;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
