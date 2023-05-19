@@ -13,14 +13,17 @@
     <br>
         <h2>Choose your weapon</h2>
         <div class="container">
-            <input type="image" src="./images/rock.png" id="rockImage">
-            <input type="image" src="./images/paper.png" id="paperImage">
-            <input type="image" src="./images/scissors.png" id="scissorsImage">
+            <input type="image" src="./images/rock.png" id="rockImage" onclick="playRock()">
+            <input type="image" src="./images/paper.png" id="paperImage" onclick="playPaper()">
+            <input type="image" src="./images/scissors.png" id="scissorsImage" onclick="playScissors()">
         </div>
     </br>
 
     <p></p>
 
+    <audio id="audioRock" src="./sound/click.mp3"></audio>
+    <audio id="audioPaper" src="./sound/click.mp3"></audio>
+    <audio id="audioScissors" src="./sound/click.mp3"></audio>
     <script src="./script.js"></script>
 
     </body>

@@ -1,3 +1,7 @@
+/* First-page */
+
+
+
 const choice = ['Rock', 'Paper', 'Scissors'];
 
 const rockBtn = document.querySelector("#rockImage");
@@ -17,8 +21,24 @@ rockBtn.addEventListener("click", () =>{
         para.textContent = "You win! Manoj chose Scissors and you chose Rock.";
     } else {
         para.textContent = "";
-    }
+    }  
 });
+
+function playRock() {
+    let audio = document.getElementById("audioRock");
+    audio.play();
+}
+
+function playPaper() {
+    let audio = document.getElementById("audioPaper");
+    audio.play();
+}
+
+function playScissors() {
+    let audio = document.getElementById("audioScissors");
+    audio.play();
+}
+
 
 paperBtn.addEventListener("click", () =>{
     let userChoice = "Paper";
