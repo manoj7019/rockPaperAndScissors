@@ -24,3 +24,8 @@ script {
     width: 100px;
     height: auto;
 }
+
+p {
+    font-size: large;
+    font-weight: bold;
+}
