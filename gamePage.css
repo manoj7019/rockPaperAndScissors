@@ -18,9 +18,9 @@ script {
     flex-direction: row;
 }
 
-.rock-image,
-.paper-image,
-.scissors-image {
+#rockImage,
+#paperImage,
+#scissorsImage {
     width: 100px;
     height: auto;
 }
