@@ -25,18 +25,18 @@ rockBtn.addEventListener("click", () =>{
 });
 
 function playRock() {
-    let audio = document.getElementById("audioRock");
-    audio.play();
+    let audioRock = document.getElementById("audioOfRock");
+    audioRock.play();
 }
 
 function playPaper() {
-    let audio = document.getElementById("audioPaper");
-    audio.play();
+    let audioPaper = document.getElementById("audioOfPaper");
+    audioPaper.play();
 }
 
 function playScissors() {
-    let audio = document.getElementById("audioScissors");
-    audio.play();
+    let audioScissors = document.getElementById("audioOfScissors");
+    audioScissors.play();
 }
 
 
