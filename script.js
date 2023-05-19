@@ -7,12 +7,32 @@ const choice = ['Rock', 'Paper', 'Scissors'];
 const rockBtn = document.querySelector("#rockImage");
 const paperBtn = document.querySelector("#paperImage");
 const scissorsBtn = document.querySelector("#scissorsImage");
-const para = document.querySelector("p");
+
+const para = document.querySelector("#paragraph");
+
+/* let yourScore = 0;
+let manojScore = 0;
+
+function yourPlusOne() {
+    yourScore = document.getElementById("yourScore");
+    if(userChoice == "Rock" && compChoice == "Rock") {
+        yourScore = yourScore;
+        yourScore.textContent = `Your Score : ${yourScore}`;
+    } else if (userChoice == "Rock" && compChoice == "Paper") {
+        yourScore = yourScore;
+        yourScore.textContent = `Your Score : ${yourScore}`;  
+    } else if (userChoice == "Rock" && compChoice == "Scissors") {
+        yourScore++;
+        yourScore.textContent = `Your Score : ${yourScore}`;
+    } else {
+        yourScore.textContent = `Nothing!`;
+    }
+} */
 
 rockBtn.addEventListener("click", () =>{
     let userChoice = "Rock";
     let compChoice = choice[Math.floor(Math.random() * choice.length)];
-    
+
     if (userChoice == "Rock" && compChoice == "Rock") {
         para.textContent = "It's a tie. You both chose Rock.";
     } else if (userChoice == "Rock" && compChoice == "Paper") {
@@ -24,21 +44,27 @@ rockBtn.addEventListener("click", () =>{
     }  
 });
 
-function playRock() {
-    let audioRock = document.getElementById("audioOfRock");
-    audioRock.play();
-}
+/* rockBtn.addEventListener("click", () =>{
+    let userChoice = "Rock";
+    let compChoice = choice[Math.floor(Math.random() * choice.length)];
+    let yourScore = 0;
+    let manojScore = 0;
 
-function playPaper() {
-    let audioPaper = document.getElementById("audioOfPaper");
-    audioPaper.play();
-}
-
-function playScissors() {
-    let audioScissors = document.getElementById("audioOfScissors");
-    audioScissors.play();
-}
-
+    if (userChoice == "Rock" && compChoice == "Rock") {
+        para.textContent = "It's a tie. You both chose Rock.";
+        console.log(`Your Score = ${yourScore}.\nManoj's Score = ${manojScore}.`);
+    } else if (userChoice == "Rock" && compChoice == "Paper") {
+        para.textContent = "Manoj wins! You chose Rock and he chose Paper.";
+        manojScore++;
+        console.log(`Your Score = ${yourScore}.\nManoj's Score = ${manojScore}.`);
+    } else if (userChoice == "Rock" && compChoice == "Scissors") {
+        para.textContent = "You win! Manoj chose Scissors and you chose Rock.";
+        yourScore++;
+        console.log(`Your Score = ${yourScore}.\nManoj's Score = ${manojScore}.`);
+    } else {
+        para.textContent = "";
+    }  
+}); */
 
 paperBtn.addEventListener("click", () =>{
     let userChoice = "Paper";
@@ -69,6 +95,22 @@ scissorsBtn.addEventListener("click", () =>{
         para.textContent = "";
     }
 });
+
+function playRock() {
+    let audioRock = document.getElementById("audioOfRock");
+    audioRock.play();
+}
+
+function playPaper() {
+    let audioPaper = document.getElementById("audioOfPaper");
+    audioPaper.play();
+}
+
+function playScissors() {
+    let audioScissors = document.getElementById("audioOfScissors");
+    audioScissors.play();
+}
+
 
 
 

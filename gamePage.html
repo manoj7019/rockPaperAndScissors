@@ -8,18 +8,23 @@
     </head>
     <body>
         
-        <h1>Rock, Paper, Scissors Battle</h1>
+        <h1>Rock, Paper and Scissors Battle!</h1>
         
     <br>
         <h2>Choose your weapon</h2>
         <div class="container">
-            <input type="image" src="./images/rock.png" id="rockImage" onclick="playRock()">
+            <input type="image" src="./images/rock.png" id="rockImage" onclick="playRock()" onclick="yourPlusOne()">
             <input type="image" src="./images/paper.png" id="paperImage" onclick="playPaper()">
             <input type="image" src="./images/scissors.png" id="scissorsImage" onclick="playScissors()">
         </div>
     </br>
 
-    <p></p>
+    <p id="paragraph"></p>
+
+    <br>
+    <h2 id="yourScore"></h2>
+    <h2 id="manojScore"></h2>
+    </br>
 
     <audio id="audioOfRock" src="./sound/click.mp3"></audio>
     <audio id="audioOfPaper" src="./sound/click.mp3"></audio>
