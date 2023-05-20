@@ -68,6 +68,51 @@ rockBtn.addEventListener("click", () =>{
     }
 });
 
+/* rockBtn.addEventListener("click", () =>{
+    let userChoice = "Rock";
+    let compChoice = choice[Math.floor(Math.random() * choice.length)];
+
+    if (userChoice == "Rock" && compChoice == "Rock") {
+        para.textContent = "It's a tie. You both chose Rock.";
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
+        manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
+        if (yourScore == '5') {
+            alert(`You won the game!\n${getYourWish}.`);
+        } else if (manojScore == '5') {
+            alert(`Manoj won the game!\n${getManojWish}.`);
+        } else {
+            result.textContent = "";
+        }
+    } else if (userChoice == "Rock" && compChoice == "Paper") {
+        para.textContent = "Manoj wins! You chose Rock and he chose Paper.";
+        manojScore++;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
+        manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
+        if (yourScore == '5') {
+            alert(`You won the game!\n${getYourWish}.`);
+        } else if (manojScore == '5') {
+            alert(`Manoj won the game!\n${getManojWish}.`);
+        } else {
+            result.textContent = "";
+        }
+    } else if (userChoice == "Rock" && compChoice == "Scissors") {
+        para.textContent = "You win! Manoj chose Scissors and you chose Rock.";
+        yourScore++;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
+        manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
+        if (yourScore == '5') {
+            alert(`You won the game!\n${getYourWish}.`);
+        } else if (manojScore == '5') {
+            alert(`Manoj won the game!\n${getManojWish}.`);
+        } else {
+            result.textContent = "";
+        }
+    } else {
+        para.textContent = "";
+    }
+}); */
+
+
 paperBtn.addEventListener("click", () =>{
     let userChoice = "Paper";
     let compChoice = choice[Math.floor(Math.random() * choice.length)];
