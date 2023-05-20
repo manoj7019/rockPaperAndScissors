@@ -24,9 +24,12 @@ img {
 }
 
 #lets-play-button {
-    background-color: lightgray;
+    background-color: black;
     font-weight: bold;
-    color: black;
+    font-size: larger;
+    color: white;
+    font-style: normal;
 }
+
 
 
