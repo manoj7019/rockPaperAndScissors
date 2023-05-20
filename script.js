@@ -3,16 +3,16 @@
 
 
 const choice = ['Rock', 'Paper', 'Scissors'];
-const manojWish = ['Take Manoj for a date', 'Go for a long walk with him', 'Buy Manoj an ice-cream', 'Propose Manoj', 'Sing a song for Manoj', 'Go breakup with your boyfriend', 'Send Manoj your most embarrassing pic', 'Give Manoj 3 sincere compliments', 'Tell Manoj one of your darkest secrets'];
-const yourWish =['Ask Manoj to take you for a date', 'Ask Manoj to take you for a long walk', 'Ask Manoj to get you an ice-cream', 'Ask Manoj to propose you', 'Ask Manoj to sing a song for you', 'Ask Manoj to breakup with his girlfriend', 'Ask Manoj to send you his favorite pic', 'Ask Manoj to give you 3 sincere compliments', 'Ask Manoj one of his darkest secrets'];
+const manojWish = ['Take Manoj for a date', 'Take him for a nightout','Go for a long walk with him', 'Buy Manoj an ice-cream', 'Propose Manoj', 'Sing a song for Manoj', 'Go breakup with your boyfriend', 'Send Manoj your most embarrassing pic', 'Give Manoj 3 sincere compliments', 'Tell Manoj one of your darkest secrets'];
+const yourWish =['Ask Manoj to take you for a date', 'Ask Manoj to take you for a nightout', 'Ask Manoj to take you for a long walk', 'Ask Manoj to get you an ice-cream', 'Ask Manoj to propose you', 'Ask Manoj to sing a song for you', 'Ask Manoj to breakup with his girlfriend', 'Ask Manoj to send you his favorite pic', 'Ask Manoj to give you 3 sincere compliments', 'Ask Manoj one of his darkest secrets'];
 
 const rockBtn = document.querySelector("#rockImage");
 const paperBtn = document.querySelector("#paperImage");
 const scissorsBtn = document.querySelector("#scissorsImage");
 
 const para = document.querySelector("#paragraph");
-const yoursScore = document.querySelector("#yourScore");
-const manojsScore = document.querySelector("#manojScore");
+const yoursScore = document.querySelector("#your-Score");
+const manojsScore = document.querySelector("#manoj-Score");
 const result = document.querySelector("#finalResult");
 
 let getManojWish = manojWish[Math.floor(Math.random() * manojWish.length)];
@@ -34,10 +34,8 @@ rockBtn.addEventListener("click", () =>{
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
-            return yourScore;
         } else if (manojScore == '5') {
             result.textContent = `Manoj won the game!\n${getManojWish}.`;
-            return manojScore;
         } else {
             result.textContent = "";
         }
@@ -48,10 +46,8 @@ rockBtn.addEventListener("click", () =>{
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
-            return yourScore;
         } else if (manojScore == '5') {
             result.textContent = `Manoj won the game!\n${getManojWish}.`;
-            return manojScore;
         } else {
             result.textContent = "";
         }
@@ -62,10 +58,8 @@ rockBtn.addEventListener("click", () =>{
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
-            return yourScore;
         } else if (manojScore == '5') {
             result.textContent = `Manoj won the game!\n${getManojWish}.`;
-            return manojScore
         } else {
             result.textContent = "";
         }
@@ -191,7 +185,7 @@ function playScissors() {
     }
 }); */
 
-function stopGame() {
+/* function stopGame() {
     if (yoursScore.textContent == `Your Score = 5`) {
         return yourScore;
         result.textContent = `You won the game!\n${getYourWish}.`;
@@ -203,7 +197,7 @@ function stopGame() {
     }
 }
 
-stopGame();
+stopGame(); */
 
 
 
