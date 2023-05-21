@@ -1,6 +1,6 @@
 const choice = ['Rock', 'Paper', 'Scissors'];
-const manojWish = ['Take Manoj for a date', 'Take him for a nightout','Go for a long walk with him', 'Buy Manoj an ice-cream', 'Go propose Manoj', 'Sing a song for Manoj', 'Give Manoj a kiss', 'Send Manoj your most embarrassing pic', 'Give Manoj 3 sincere compliments', 'Tell Manoj one of your darkest secrets'];
-const yourWish =['Ask Manoj to take you for a date', 'Ask Manoj to take you for a nightout', 'Ask Manoj to take you for a long walk', 'Ask Manoj to get you an ice-cream', 'Ask Manoj to propose you', 'Ask Manoj to sing a song for you', 'Ask Manoj to breakup with his girlfriend', 'Ask Manoj to send you his favorite pic', 'Ask Manoj to give you 3 sincere compliments', 'Ask Manoj one of his darkest secrets'];
+const manojWish = ['Remove your socks with your teeth', 'Write your name on the floor with your tongue', 'Eat a spoonful of pepper', 'Eat an egg shell', 'Stand on your knees for an hour', 'Lick a train wheel', 'Do 1000 push-ups', 'Do 1000 squats', 'Eat a whole book', 'Eat an entire raw onion without slicing it', 'Go ask someone to adopt you', 'Go jump from Burj Khalifa', 'Handstand for 10 minutes', 'Lick your elbow', 'Do a moonwalk better than Michael Jackson ', 'Go climb the Mount Everest now', 'Crack a coconut on your head', 'Dump a bucket of ice water on your head', 'Go eat 10 chillies', 'Do a bellydance', 'Go eat a raw chicken', 'Sing Despacito without a single mistake', 'Go eat a cup of salt', 'Drink a big can of Soda', 'Go shave your eyebrows', 'Keep 3 ice cubes in your mouth until they melt', 'Drink a litre of vinegar', 'Go watch a movie "The Emoji" ', 'Gift Manoj a bitcoin', 'Buy Manoj a Mercedes'];
+const yourWish =['Congratulations'];
 
 const rockBtn = document.querySelector("#rockImage");
 const paperBtn = document.querySelector("#paperImage");
@@ -33,7 +33,7 @@ rockBtn.addEventListener("click", function selectRock() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -47,7 +47,7 @@ rockBtn.addEventListener("click", function selectRock() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -61,7 +61,7 @@ rockBtn.addEventListener("click", function selectRock() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -83,7 +83,7 @@ paperBtn.addEventListener("click", function selectPaper() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -97,7 +97,7 @@ paperBtn.addEventListener("click", function selectPaper() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -111,7 +111,7 @@ paperBtn.addEventListener("click", function selectPaper() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -133,7 +133,7 @@ scissorsBtn.addEventListener("click", function selectScissors() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -147,7 +147,7 @@ scissorsBtn.addEventListener("click", function selectScissors() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!\n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
@@ -161,7 +161,7 @@ scissorsBtn.addEventListener("click", function selectScissors() {
             result.textContent = `You won the game!\n${getYourWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else if (manojScore == '5') {
-            result.textContent = `Manoj won the game!\n${getManojWish}.`;
+            result.textContent = `You lost the game!n${getManojWish}.`;
             refresh.textContent = `Refresh the page to play again`;
         } else {
             result.textContent = "";
