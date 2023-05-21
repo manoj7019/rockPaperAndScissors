@@ -18,7 +18,7 @@ let getYourWish = yourWish[Math.floor(Math.random() * yourWish.length)];
 let yourScore = 0;
 let manojScore = 0;
 
-yoursScore.textContent = `Zara's Score = ${yourScore}`;
+yoursScore.textContent = `Your Score = ${yourScore}`;
 manojsScore.textContent = `Manoj's Score = ${manojScore}`;
 
 rockBtn.addEventListener("click", function selectRock() {
@@ -27,7 +27,7 @@ rockBtn.addEventListener("click", function selectRock() {
 
     if (userChoice == "Rock" && compChoice == "Rock") {
         para.textContent = "It's a tie. You both chose Rock.";
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -41,7 +41,7 @@ rockBtn.addEventListener("click", function selectRock() {
     } else if (userChoice == "Rock" && compChoice == "Paper") {
         para.textContent = "Manoj wins! You chose Rock and he chose Paper.";
         manojScore++;
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -55,7 +55,7 @@ rockBtn.addEventListener("click", function selectRock() {
     } else if (userChoice == "Rock" && compChoice == "Scissors") {
         para.textContent = "You win! Manoj chose Scissors and you chose Rock.";
         yourScore++;
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -77,7 +77,7 @@ paperBtn.addEventListener("click", function selectPaper() {
     
     if (userChoice == "Paper" && compChoice == "Paper") {
         para.textContent = "It's a tie. You both chose Paper.";
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -91,7 +91,7 @@ paperBtn.addEventListener("click", function selectPaper() {
     } else if (userChoice == "Paper" && compChoice == "Scissors") {
         para.textContent = "Manoj wins! You chose Paper and he chose Scissors.";
         manojScore++;
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -105,7 +105,7 @@ paperBtn.addEventListener("click", function selectPaper() {
     } else if (userChoice == "Paper" && compChoice == "Rock") {
         para.textContent = "You win! Manoj chose Rock and you chose Paper.";
         yourScore++;
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -127,7 +127,7 @@ scissorsBtn.addEventListener("click", function selectScissors() {
     
     if (userChoice == "Scissors" && compChoice == "Scissors") {
         para.textContent = "It's a tie. You both chose Scissors.";
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -141,7 +141,7 @@ scissorsBtn.addEventListener("click", function selectScissors() {
     } else if (userChoice == "Scissors" && compChoice == "Rock") {
         para.textContent = "Manoj wins! You chose Scissors and he chose Rock.";
         manojScore++;
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
@@ -155,7 +155,7 @@ scissorsBtn.addEventListener("click", function selectScissors() {
     } else if (userChoice == "Scissors" && compChoice == "Paper") {
         para.textContent = "You win! Manoj chose Paper and you chose Scissors.";
         yourScore++;
-        yoursScore.textContent = `Zara's Score = ${yourScore.toString()}`;
+        yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
             result.textContent = `You won the game!\n${getYourWish}.`;
