@@ -1,5 +1,5 @@
 const choice = ['Rock', 'Paper', 'Scissors'];
-const manojWish = ['Remove your socks with your teeth', 'Write your name on the floor with your tongue', 'Eat a spoonful of pepper', 'Eat an egg shell', 'Stand on your knees for an hour', 'Lick a train wheel', 'Do 1000 push-ups', 'Do 1000 squats', 'Eat a whole book', 'Eat an entire raw onion without slicing it', 'Go ask someone to adopt you', 'Go jump from Burj Khalifa', 'Handstand for 10 minutes', 'Lick your elbow', 'Do a moonwalk better than Michael Jackson ', 'Go climb the Mount Everest now', 'Crack a coconut on your head', 'Dump a bucket of ice water on your head', 'Go eat 10 chillies', 'Do a bellydance', 'Go eat a raw chicken', 'Sing Despacito without a single mistake', 'Go eat a cup of salt', 'Drink a big can of Soda', 'Go shave your eyebrows', 'Keep 3 ice cubes in your mouth until they melt', 'Drink a litre of vinegar', 'Go watch a movie "The Emoji" ', 'Gift Manoj a bitcoin', 'Buy Manoj a Mercedes'];
+const manojWish = ['Go remove your socks with your teeth', 'Go write your name on the floor with your tongue', 'Go eat a spoonful of pepper', 'Go eat an egg shell', 'Go stand on your knees for an hour', 'Go lick a train wheel', 'Go do 1000 pushups', 'Go do 1000 squats', 'Go eat the pages of whole book', 'Go eat an entire raw onion without slicing it', 'Go ask someone to adopt you', 'Go jump from Burj Khalifa', 'Go do handstand for 10 minutes', 'Go lick your elbow', 'Go do a moonwalk better than Michael Jackson', 'Go climb the Mount Everest now', 'Go crack a coconut on your head', 'Go dump a bucket of ice water on your head', 'Go eat 10 chillies', 'Go do a bellydance', 'Go eat a raw chicken', 'Go sing Despacito without a single mistake', 'Go eat a cup of salt', 'Go drink a bucket of Soda', 'Go shave your eyebrows', 'Go keep 3 ice cubes in your mouth until they melt', 'Go drink a litre of vinegar', 'Go watch a movie "The Emoji" ', 'Go gift Manoj a bitcoin', 'Go buy Manoj a Rolls Royce'];
 const yourWish =['Congratulations'];
 
 const rockBtn = document.querySelector("#rockImage");
@@ -30,11 +30,11 @@ rockBtn.addEventListener("click", function selectRock() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -44,11 +44,11 @@ rockBtn.addEventListener("click", function selectRock() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -58,11 +58,11 @@ rockBtn.addEventListener("click", function selectRock() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -80,11 +80,11 @@ paperBtn.addEventListener("click", function selectPaper() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -94,11 +94,11 @@ paperBtn.addEventListener("click", function selectPaper() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -108,11 +108,11 @@ paperBtn.addEventListener("click", function selectPaper() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -130,11 +130,11 @@ scissorsBtn.addEventListener("click", function selectScissors() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -144,11 +144,11 @@ scissorsBtn.addEventListener("click", function selectScissors() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!\n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
@@ -158,11 +158,11 @@ scissorsBtn.addEventListener("click", function selectScissors() {
         yoursScore.textContent = `Your Score = ${yourScore.toString()}`;
         manojsScore.textContent = `Manoj's Score = ${manojScore.toString()}`;
         if (yourScore == '5') {
-            result.textContent = `You won the game!\n${getYourWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You won the battle!\n${getYourWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else if (manojScore == '5') {
-            result.textContent = `You lost the game!n${getManojWish}.`;
-            refresh.textContent = `Refresh the page to play again`;
+            result.textContent = `You lost the battle!\n${getManojWish}.`;
+            refresh.textContent = `Refresh the page to fight again`;
         } else {
             result.textContent = "";
         }
