@@ -46,16 +46,22 @@ body {
     flex-direction: column;
 }
 
-footer {
-    margin-top: auto;
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-#footerText {
-    font-size: 13px;
+.copyright-text {
+    font-size: 9px;
     font-weight: normal;
 }
 
-#githubIcon2 {
-    height: 20px;
+.github-icon {
+    margin: -2px 0px 0px -15px;
+}
+
+.githubIcon {
+    height: 10px;
     width: auto;
 }

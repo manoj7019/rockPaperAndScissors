@@ -40,13 +40,32 @@ body {
     flex-direction: column;
 }
 
-footer {
+/* footer {
     margin-top: auto;
     font-size: 13px;
 }
 
 #githubIcon {
     height: 20px;
+    width: auto;
+} */
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright-text {
+    font-size: 9px;
+}
+
+.github-icon {
+    margin: 11px 0px 0px -15px;
+}
+
+.githubIcon {
+    height: 10px;
     width: auto;
 }
 
