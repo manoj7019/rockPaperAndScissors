@@ -1,3 +1,4 @@
 # rockPaperAndScissors
 
-Making it as simple as possible.
+A simple Rock, Paper and Scissors game.
+
