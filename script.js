@@ -176,6 +176,7 @@ function disableImage() {
         document.getElementById("rockImage").disabled = true;
         document.getElementById("paperImage").disabled = true;
         document.getElementById("scissorsImage").disabled = true;
+        return;
     } else {
         document.getElementById("rockImage").disabled = false;
         document.getElementById("paperImage").disabled = false;
