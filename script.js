@@ -177,11 +177,11 @@ function disableImage() {
         document.getElementById("paperImage").disabled = true;
         document.getElementById("scissorsImage").disabled = true;
         return;
-    } else {
+    } /* else {
         document.getElementById("rockImage").disabled = false;
         document.getElementById("paperImage").disabled = false;
         document.getElementById("scissorsImage").disabled = false;
-    }
+    } */
 }
 
 function playRock() {
